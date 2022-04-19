@@ -7,9 +7,9 @@
 mip(Metric, dur)
 }
 \arguments{
-\item{a}{Colum "Metric" of the data frame that wants to be analysed}
+\item{Metric}{Colum "Metric" of the data frame that wants to be analysed}
 
-\item{b}{Duration of the maximum intensity period in seconds}
+\item{dur}{Duration of the maximum intensity period in seconds}
 }
 \value{
 Numeric value
