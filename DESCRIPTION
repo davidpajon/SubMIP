@@ -1,0 +1,14 @@
+Package: SubMIP
+Type: Package
+Title: Extract,identify and plot Maximal ahend Submaximal Intensity Periods (SubMIP)
+Version: 0.1.0
+Author: David Pajon Moreno
+Maintainer: David Pajón <dpajonm@gmail.com>
+Description: This packages is composed by three fuctions (may be increased in the future) to help calculate maximal and submaximal intensity periods of GPS 10Hz data.This packages allows specifying the parameters of the calculations, overcoming the restrictions of most GPS companies platfomrs.The outcomes of the calculations can be used for training prescription, profiling and advanced analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    data.table,
+    dplyr
+RoxygenNote: 7.1.1
