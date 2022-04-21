@@ -15,7 +15,7 @@
 #' @examples
 #' submip_plot(19.6,60,data$MetabolicPower,90)
 submip_plot <- function(MIP,dur,Metric,threshold){
-  sec <- seq(0.1,length(Metric)/10,0.1)
+  sec <- seq(0.1,nrow(Metric)/10,0.1)
   dat <-as.data.frame(cbind(Metric,sec))
   durat <- dur*10
   umb <- threshold*0.01
